@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Montserrat, sans-serif;
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding: 16px;
+    border: 2px solid gold;
+}
+
+.container {
+    min-height: 91vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+nav {
+    border: 2px solid red;
+    min-height: 15vh;
+    width: 100%;
+}
+
+nav ul {
+    padding: 36px;
+    margin: auto;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 8px;
+    font-size: 20px;
+}
+
+main {
+    border: 2px solid blue;
+    width: 100%;
+    min-height: 50vh;
+}
+
+main p {
+    padding: 5vw;
+}
+
+aside {
+    border: 2px solid rgb(130, 255, 130);
+    min-height: 15vh;
+    width: 100%;
+}
+
+aside img {
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    padding: 16px;
+    border: 2px solid magenta;
+    text-align: center;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        min-width: 91vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    nav {
+        /* min-width: 10vw; */
+        float: left;
+        width: 30%;
+        height: 90.65vh;
+    }
+    
+    main {
+        min-width: 35vw;
+        float: left;
+        width: 30%;
+        height: 90.65vh;
+    }
+    
+    main p {
+        padding: 1.5vw;
+    }
+    
+    aside {
+        /* min-width: 10vw; */
+        float: left;
+        width: 30%;
+        height: 90.65vh;
+    }
+    
+    aside img {
+        max-width: 100%;
+    }
+}
