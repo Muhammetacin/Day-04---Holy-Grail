@@ -94,11 +94,11 @@ footer {
     }
     
     nav {
-        min-width: 10vw;
+        min-width: 20vw;
     }
     
     main {
-        min-width: 60vw;
+        min-width: 50vw;
     }
     
     main p {

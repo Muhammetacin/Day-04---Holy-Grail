@@ -88,14 +88,14 @@ footer {
     nav {
         /* min-width: 10vw; */
         float: left;
-        width: 30%;
+        width: 20%;
         height: 90.65vh;
     }
     
     main {
         min-width: 35vw;
         float: left;
-        width: 30%;
+        width: 59%;
         height: 90.65vh;
     }
     
@@ -106,7 +106,7 @@ footer {
     aside {
         /* min-width: 10vw; */
         float: left;
-        width: 30%;
+        width: 20%;
         height: 90.65vh;
     }
     

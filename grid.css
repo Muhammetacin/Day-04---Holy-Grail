@@ -17,7 +17,7 @@ header {
 .container {
     display: grid;
     gap: 4px;
-    grid-template-rows: 15vh 55vh 15vh;
+    grid-template-rows: 22vh 55vh 15vh;
     
     min-height: 91vh;
     margin-left: 5vw;
@@ -92,7 +92,7 @@ footer {
     }
     
     nav {
-        min-width: 10vw;
+        min-width: 20vw;
         grid-column: 1;
     }
     
